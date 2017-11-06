@@ -1,4 +1,5 @@
 var app = angular.module('app', ['ngRoute'])
+
 console.log('angular and script sourced');
 
 app.config(function ($routeProvider) {
@@ -8,5 +9,5 @@ app.config(function ($routeProvider) {
     }).when('/view', {
         templateUrl: 'templates/view.html',
         controller: 'MessageController as mc'
-    })
+    });
 });

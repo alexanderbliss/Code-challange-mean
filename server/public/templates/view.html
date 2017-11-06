@@ -1,6 +1,6 @@
 <h1>Comments</h1>
 
-        <div ng-repeat="this in mc.messageResult.data">
-            <p>user: {{this.user}}</p>
-            <p>comment: {{this.comment}}</p>
+        <div ng-repeat="message in mc.messageResult.data">
+            <p>user: {{message.user}}</p>
+            <p>comment: {{message.comment}}</p>
         </div>

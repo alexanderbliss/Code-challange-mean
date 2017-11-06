@@ -8,7 +8,8 @@ app.controller('MessageController', function (MessageService) {
         MessageService.addMessage(message)
     }
     
-    
+    vm.messageResult = MessageService.messageResult;
+
     MessageService.getMessage();
 
 });
