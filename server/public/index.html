@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="vendors/angular.min.js"></script>
+    <script src="vendors/angular-route.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <script src="controllers/message-controller.js"></script>
+    <script src="services/service.js"></script>
+    <title>Document</title>
+</head>
+<body ng-app="app">
+    <h1>hello</h1>
+<br></br>
+        <div class="container">
+            <a href="/#!/add">Add A Comment</a>
+            <a href="/#!/view">View Comments</a>
+        </div>
+        <main ng-view></main>
+</body>
+</html>
